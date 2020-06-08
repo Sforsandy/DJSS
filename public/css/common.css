@@ -1,0 +1,514 @@
+.mb-1p
+{
+	margin-bottom: 1px;
+}
+.mb-2p
+{
+	margin-bottom: 2px;
+}
+.mb-3p
+{
+	margin-bottom: 3px;
+}
+.mb-4p
+{
+	margin-bottom: 4px;
+}
+.mb-5p
+{
+	margin-bottom: 5px;
+}
+.mb-1
+{
+	margin-bottom: 1rem;
+}
+
+
+.mt-1p
+{
+	margin-top: 1px;
+}
+.mt-2p
+{
+	margin-top: 2px;
+}
+.mt-3p
+{
+	margin-top: 3px;
+}
+.mt-4p
+{
+	margin-top: 4px;
+}
+.mt-5p
+{
+	margin-top: 5px;
+}
+.mt-1
+{
+	margin-top: 1rem;
+}
+
+.mr-1p
+{
+	margin-right: 1px;
+}
+.mr-2p
+{
+	margin-right: 2px;
+}
+.mr-3p
+{
+	margin-right: 3px;
+}
+.mr-4p
+{
+	margin-right: 4px;
+}
+.mr-5p
+{
+	margin-right: 5px;
+}
+.mr-1
+{
+	margin-right: 1rem;
+}
+
+
+
+.pl-0
+{
+	padding-left: 0px;
+}
+.pr-0
+{
+	padding-right: 0px;
+}
+.w-50
+{
+	width: 50% !important;
+}
+.p-lr-0
+{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.skin-blue .main-header .navbar
+{
+	background-color: #ffff !important;
+}
+.skin-blue .main-header li.user-header
+{
+	background-color: #222d32 !important;
+}
+.pagination>.active>a
+{
+	background-color: #222d32 !important;
+	border-color: #222d32 !important;
+}
+.content-wrapper
+{
+	background-image: url('../image/eventsbg.jpg');
+	background-repeat: repeat;
+}
+.login-page, .register-page
+{
+	background-image: url('../image/eventsbg.jpg');
+	background-repeat: repeat;
+}
+.FilterBtnList>li>a
+{
+	cursor: pointer;
+}
+.header-logo
+{
+	width: 13rem;
+	margin: .9rem .9rem 0rem .9rem;
+}
+.content-header>.breadcrumb>li>a
+{
+	color: #fff;
+}
+.breadcrumb>.active
+{
+	color: #fff;
+}
+.content-header>h1
+{
+	color: #fff;
+}
+.content-header>h1>small
+{
+	color: #fff;
+}
+.main-footer
+{
+	background: transparent;
+    padding: 15px;
+    color: #fff;
+    border-top: none;
+}
+.footer-nav.nav>li>a
+{
+	    display: inline;
+	    color: #fff;
+}
+.footer-nav.nav>li>a:hover, .nav>li>a:active, .nav>li>a:focus
+{
+	background: rgba(0,0,0,0);
+    color: #f6f6f6;
+}
+.pull-right-center
+{
+	text-align: right;
+	float: right;
+}
+.pull-left-center
+{
+	text-align: left;
+	float: left;
+}
+a
+{
+	cursor: pointer;
+}
+
+/*CUSTOM FOOTER*/
+.custom-footer
+{
+	bottom: 0;
+	position: fixed;
+	clear: both;
+	/* float: left; */
+	width: 100%;
+	background-color: #444;
+	padding: 15px;
+	color: #FFF;
+}
+/*CUSTOM FOOTER END*/
+
+@media screen and (max-width: 767px) {
+	.pull-right-center
+	{
+		text-align: center;
+		float: none;
+	}
+	.pull-left-center
+	{
+		text-align: center;
+		float: none;
+	}
+	.footer-nav.nav>li
+	{
+		    display: inline;
+	}
+	.main-footer
+	{
+		padding: 5px 0px 0px;
+	}
+	.custom-footer
+	{
+		padding: 5px;
+		    font-size: 12px;
+	}
+	.register-box
+	{
+		margin: 22% auto;
+	}
+	.content
+	{
+		width: 100%;
+		padding: 0px;
+		padding-top: 10px;
+	}
+	.text-w60
+	{
+		width: 65% !important;
+	}
+	.text-w40
+	{
+		width: 35% !important;
+	}
+}
+
+
+/*EVENTS PAGE*/
+.w-md-50
+{
+	width: 50%;
+}
+.per-event-tbl.table>tbody>tr>td
+{
+	padding: 0px;
+	border: none;
+}
+.per-event-tbl>.desc-title-td
+{
+	font-weight: bold;
+}
+.desc-title-td
+{
+	width: 10rem;
+	font-weight: bold;
+}
+.per-event-box
+{
+	margin-bottom: 5px;
+}
+.desc-detail-td
+{
+	width: 10rem;
+}
+.w-md-50-s
+{
+	    width: 20%;
+}
+.desc-title-td-s
+{
+	    width: 1rem;
+}
+.desc-detail-td-s
+{
+	    width: .5rem;
+}
+.per-event-box-body
+{
+	cursor: pointer;
+}
+.per-event-box>.box-header
+{
+	display: block;
+	padding: 5px 10px;
+}
+.per-event-box>.box-header>h3
+{
+	    font-weight: bold;
+}
+.per-event-box>.box-body
+{
+	padding: 0px 10px 10px;
+}
+
+.FilterBtnList
+{
+	    left: -65px;
+    min-width: 130px;
+}
+/**/
+.EventsList .info-box
+{
+	min-height: 130px;
+	background: #2f3140;
+	color: #fff;
+}
+.game-name-text
+{
+	display: block;
+    font-size: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+        border-bottom: 1px solid #dadada;
+        font-weight: bold;
+}
+.event-name-text
+{
+	display: block;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 1.8;
+}
+.event-data-text
+{
+	display: block;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    float: left;
+    line-height: 1.8;
+}
+.text-w60
+{
+	width: 60%;
+}
+.text-w40
+{
+	width: 40%;
+}
+.event-data-text i
+{
+	margin-right: .5rem;
+}
+.per-event-boxes:hover
+{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.FilterBtnStatus.active ,.FilterBtnEventby.active ,.FilterBtnGame.active
+{
+	background: #ccc;
+}
+.custom-box
+{
+	background: transparent;
+	border: none;
+}
+.no-event-text
+{
+	    width: 100%;
+    float: left;
+}
+
+/**/
+
+@media screen and (max-width: 1100px) {
+	.w-md-50
+	{
+		width: 100%;
+	}
+	.w-md-50-s
+	{
+		width: 45%;
+	}
+	.FilterBtnEventbyStatus,.FilterBtnEventbyGame,.FilterBtnEventbyTitle
+	{
+		font-size: 10px;
+	}
+}
+/*EVENTS PAGE END*/
+
+/*EVENT DETAILS VIEW*/
+.event-detail-tbl.table>tbody>tr>td
+{
+	padding: 0px;
+	    border: none;
+}
+.event-detail-tbl .desc-title-td
+{
+	font-weight: bold;
+}
+
+.evnt-dtl-title
+{
+	width: 15rem;
+	font-weight: bold;
+}
+.event-dtl-game-image
+{
+	width: 10rem;
+}
+.no-border-tbl td
+{
+	border: none !important;
+}
+
+.evnt-pricepoll-title
+{
+	width: 18rem;
+	font-weight: bold;
+}
+.evnt-winner-title
+{
+	width: 15rem;
+	font-weight: bold;
+}
+.no-border-tbl td
+{
+	border: none !important;
+}
+.custom-header-box
+{
+background: #2f3140;
+    color: #fff;
+    border: none;
+}
+.custom-header-box h3
+{
+	color: #fff;
+}
+.LoadMore ,.LoadMore:hover ,.LoadMore:active
+{
+	width: 100%;
+	background: #2f3140;
+	color: #fff;
+	border: #2f3140;
+}
+/*EVENT DETAILS VIEW END*/
+
+/*PAYMENT STATUS*/
+.payment-status-tbl .payment-detail-td
+{
+	width: 10rem;
+	font-weight: bold;
+}
+/*PAYMENT STATUS END*/
+
+
+/*TRANSACTION PAGE*/
+#EventTransactionsTable_wrapper .dt-buttons
+{
+	float: right;
+	width: 100%;
+	text-align: right;
+	margin-bottom: 5px;
+}
+#TransactionsRange
+{
+width: 28rem !important;
+margin-right: 8rem;
+position: absolute;
+right: 0;
+min-height: 3.4rem;
+}
+/*TRANSACTION PAGE END*/
+/*LEADERBORD PAGE */
+#leaderbordsRange
+{
+	width: 28rem !important;
+	min-height: 3.4rem;
+	background: #fff;
+	cursor: pointer;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	width: 100%;
+	margin: 6px 15px;
+	float: right;
+}
+/*LEADERBORD PAGE END*/
+.game-name-div
+{
+float: left;
+    width: 100%;
+    /* padding: 5px 10px; */
+    /* margin-left: 90px; */
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+}
+.user-winner-position-text
+{
+	background: rgb(34,45,50,1.5);
+}
+#UsersTable_wrapper
+{
+	clear: both ;
+}
+.ReportRange
+{
+	background: #fff !important; 
+	cursor: pointer !important; 
+	padding: 6px 10px !important; 
+	border: 1px solid #ccc !important; 
+	width: 28rem !important;
+}
+.fb-color,.fb-color:hover,.fb-color:active
+{
+	background: #4267b2;
+}
+.fb-icon
+{
+	    padding: 4px 6px;
+}

@@ -1,0 +1,1 @@
+{!! QrCode::size(1500)->generate('https://www.gamerzbyte.com'); !!}
